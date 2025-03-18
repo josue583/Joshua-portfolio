@@ -10,7 +10,7 @@ export default defineConfig({
    
 
   ],
-  base:process.env.VITE_BASE_PATH || "/Joshua-portfolio",
+  // base:process.env.VITE_BASE_PATH || "/Joshua-portfolio",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
