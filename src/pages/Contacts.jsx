@@ -1,7 +1,7 @@
 import React from 'react'
-import Sidebar from '@/components/sidebar'
-import MapComponent from '@/components/Map'
-import Footer from '@/components/Footer'
+import Sidebar from '../components/sidebar'
+import MapComponent from '../components/Map'
+import Footer from '../components/Footer'
 function Contact() {
   return (
     <div className='flex ml-34 bg-gray-950'>

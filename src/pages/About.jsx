@@ -1,12 +1,12 @@
 import React from 'react'
-import Sidebar from '@/components/sidebar'
-import joshua from "@/assets/joshua.JPG"
-import Myinformation from '@/components/Myinformation.jsx/Myinformation'
+import Sidebar from '../components/sidebar'
+import joshua from "../assets/joshua.JPG"
+import Myinformation from '../components/Myinformation.jsx/Myinformation'
 // import Skills from '../components/skills.jsx'
-import Progress_bar from '@/components/Progress_bar'
-import Knowledge from '@/components/Knowledge'
-import Experiance from '@/components/Experiance'
-import Footer from '@/components/Footer'
+import Progress_bar from '../components/Progress_bar'
+import Knowledge from '../components/Knowledge'
+import Experiance from '../components/Experiance'
+import Footer from '../components/Footer'
 function About() {
   return (
     <div className='  min-h-screen flex bg-gray-950'>

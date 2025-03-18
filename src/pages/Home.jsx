@@ -1,6 +1,6 @@
 import React from 'react'
-import Sidebar from '@/components/sidebar.jsx'
-import joshua from '@/assets/joshua.JPG'
+import Sidebar from '../components/sidebar.jsx'
+import joshua from '../assets/joshua.JPG'
 import { TypeAnimation } from 'react-type-animation'
 function Home() {
   return (
