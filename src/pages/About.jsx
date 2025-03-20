@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
-import joshua from "../assets/joshua.JPG"
+// import joshua from "../assets/joshua.JPG"
 import Myinformation from '../components/Myinformation.jsx/Myinformation'
 // import Skills from '../components/skills.jsx'
 import Progress_bar from '../components/Progress_bar'
@@ -20,7 +20,7 @@ function About() {
       
       <div className='w-full flex flex-col gap-6'>
       <div className='w-full md:w-full '>
-          <img className='w-full h-[600px] md:w-full md:h-fit ' src={joshua} alt="" />
+          {/* <img className='w-full h-[600px] md:w-full md:h-fit ' src={joshua} alt="" /> */}
         </div>
         <div className='w-full'>
           <h1 className='text-2xl font-bold font-serif'>Ndikumwenayo Josue</h1>
