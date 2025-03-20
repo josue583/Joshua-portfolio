@@ -7,7 +7,7 @@ export default function sidebar() {
   const [isOpen,setIsOpen]=useState(false)
   return (
 
-    <div className='md:w-64 md:min-h-screen bg-blue-950 md:pt-40 text-white flex-grow md:pl-16 gap-16 '>
+    <div className='md:w-64 md:min-h-screen md:fixed md:left-0 md:top-0 bg-blue-950 md:pt-40 text-white flex-grow md:pl-16 gap-16 '>
       {/* w-full h-20  */}
       {/* pt-20 fixed left-0 top-0 */}
 

@@ -2,9 +2,9 @@ import React from 'react'
 import { Progress } from '@material-tailwind/react'
 function Progress_bar() {
   return (
-    <div className='w-4/5 flex justify-center min-h-[600px] md:w-full md:ml-34 md:min-h-[400px]  bg-black flex text-white md:flex md:flex-row md:items-center md:justify-start '>
-      <div className='w-4/5 flex flex-col justify-center pt-4 md:w-4/5 md:flex md:flex-row md:justify-start md:ml-12 md:gap-40 font-bold'>
-      <div className=' w-full flex flex-col gap-4 md:w-2/5'>
+    <div className='w-full flex justify-center min-h-[600px] md:w-4/5 md:min-h-[400px]  bg-black flex text-white md:flex md:flex-row md:items-center md:justify-start '>
+      <div className='w-4/5 flex flex-col justify-center gap-10 md:w-4/5 md:flex md:flex-row md:justify-start md:gap-40 font-bold'>
+      <div className=' w-full flex flex-col gap-2 md:w-2/5'>
       <h1 className='pb-10 font-bold text-xl font-serif'>Programming Skills</h1>
       <div className='w-full flex flex-col gap-2 md:w-full '>
       <div className='w-full flex justify-between text-sm font-serif'>

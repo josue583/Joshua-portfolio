@@ -3,7 +3,7 @@ import React from 'react'
 function Myinformation() {
   return (
     <div className='w-full'>
-      <table className='w-full flex flex-col md:flex md:flex-row justify-between'>
+      <table className='w-full flex flex-col xl:flex xl:flex-row justify-between'>
        
             <div className='flex flex-col gap-4'>
             <div className=''>
