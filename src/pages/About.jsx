@@ -20,7 +20,7 @@ function About() {
       
       <div className='w-full flex flex-col gap-6'>
       <div className='w-full md:w-full '>
-          <img className='w-full h-[600px] md:w-full md:h-fit ' src={joshua} alt="" />
+          <img className='w-full h-[600px]  md:w-full md:h-fit ' src={joshua} alt="" />
         </div>
         <div className='w-full'>
           <h1 className='text-2xl font-bold font-serif'>Ndikumwenayo Josue</h1>
