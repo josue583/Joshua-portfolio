@@ -1,5 +1,5 @@
 import React from 'react'
-import Sidebar from '../components/sidebar'
+import Sidebar from '../components/Sidebar'
 import joshua from "../assets/joshua.JPG"
 import Myinformation from '../components/Myinformation.jsx/Myinformation'
 // import Skills from '../components/skills.jsx'
