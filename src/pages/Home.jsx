@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
-// import joshua from '../assets/joshua.JPG'
+import joshua from '../assets/joshua.JPG'
 import { TypeAnimation } from 'react-type-animation'
 function Home() {
   return (
@@ -8,7 +8,7 @@ function Home() {
       <Sidebar/>
       <div className='w-full p-4  ml-20  flex flex-col items-center pl-32 justify-center bg-gray-950 md:4/5:flex md:flex-row sm:items-center sm:justify-center bg-gray-950 min-h-screen text-white    gap-10'>
         <div className='w-60'>
-         {/* <img className='w-56 h-68 rounded-full border-t-transparent animate-spin-slow' src={joshua} alt="" /> */}
+         <img className='w-56 h-68 rounded-full border-t-transparent animate-spin-slow' src={joshua} alt="" />
         </div>
         <div className='md:w-2/5 text-md  md:text-xl flex flex-col gap-6'>
            <h1 className='text-xl md:text-4xl'>NDIKUMWENAYO JOSUE</h1>
