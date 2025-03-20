@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import joshua from '../assets/joshua.JPG'
+// import joshua from '../assets/joshua.JPG'
 
 
 export default function sidebar() {
