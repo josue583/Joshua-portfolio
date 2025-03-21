@@ -7,12 +7,12 @@ export default function sidebar() {
   const [isOpen,setIsOpen]=useState(false)
   return (
 
-    <div className='md:w-64 md:min-h-screen md:fixed md:left-0 md:top-0 bg-blue-950 md:pt-40 text-white flex-grow md:pl-16 gap-16 '>
+    <div className='md:w-64 md:min-h-screen md:fixed md:left-0 md:top-0 bg-[#000000ff] md:pt-40 text-white flex-grow md:pl-16 gap-16 '>
       {/* w-full h-20  */}
       {/* pt-20 fixed left-0 top-0 */}
 
-      <div className='w-full flex justify-between items-center h-20 bg-blue-950 md:hidden'>
-        <h1 className='w-10 h-10 rounded-full text-white bg-gray-500 flex justify-center items-center ml-8 text-xl font-serif'>NJ</h1>
+      <div className='w-full  flex justify-between items-center h-18 bg-[#3b3b3bff] md:hidden'>
+        <h1 className='w-10 h-10 rounded-full text-white bg-[#000000ff] flex justify-center items-center ml-8 text-xl font-extrabold'>NJ</h1>
       <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white mr-8">
   {isOpen ? (
     <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -28,9 +28,9 @@ export default function sidebar() {
       </div>
      <div>
    
-<ul className='hidden  md:flex flex-col  gap-4 text-sm font-serif'>
-<h1 className='w-10 h-10 rounded-full text-white bg-gray-500 flex justify-center items-center ml-8 text-xl font-serif'>NJ</h1>
-        <li className='text-white font-bold text-xl'>DashBord</li>
+<ul className='hidden  md:flex flex-col  gap-8 text-sm font-serif'>
+<h1 className='w-10 h-10 rounded-full text-white bg-[#3b3b3bff] flex justify-center items-center ml-8 text-xl font-serif'>NJ</h1>
+        <li className='text-white font-bold text-lg'>DashBord</li>
         <Link to="/" className='flex gap-4'><i class="fa-solid fa-house"></i>Home</Link>
         <Link to="/about" className='flex gap-4'><i class="fa-solid fa-user"></i>About</Link>
         <Link to={"/contact"} className='flex gap-4'><i class="fa-solid  fa-gear"></i>Contact</Link>
@@ -38,12 +38,13 @@ export default function sidebar() {
       </ul>
      </div>
 {isOpen&&(
-  <div className='w-36 fixed top-0 h-96 bg-blue-950 flex items-center justify-center  '>
- <ul className='flex flex-col  gap-4 text-md md:hidden'>
- <h1 className='w-10 h-10 rounded-full text-white bg-gray-500 flex justify-center items-center text-xl font-serif'>NJ</h1>
-        <Link to="/" className='flex gap-4 font-thin'><i class="fa-solid fa-house"></i>Home</Link>
-        <Link to="/about" className='flex gap-4 font-thin'><i class="fa-solid fa-user"></i>About</Link>
-        <Link to="/contact" className='flex gap-4 font-thin'><i class="fa-solid  fa-gear"></i>Contact</Link>
+  <div className='w-64 fixed top-0 min-h-screen bg-[#000000ff] flex flex-col gap-12 pl-10 pt-20 md:hidden '>
+    <h1 className='w-10 h-10 rounded-full text-white bg-[#3b3b3bff] flex justify-center items-center font-extrabold ml-6'>NJ</h1>
+ <ul className='flex flex-col  gap-6 text-md md:hidden'>
+
+        <Link to="/" className='flex gap-2 font-thin'><i class="fa-solid fa-house"></i>Home</Link>
+        <Link to="/about" className='flex gap-2 font-thin'><i class="fa-solid fa-user"></i>About</Link>
+        <Link to="/contact" className='flex gap-2 font-thin'><i class="fa-solid  fa-gear"></i>Contact</Link>
         <li className='flex gap-4 font-thin'><i class="fa-solid fa-envelope"></i>Services</li>
       </ul>
   </div>
