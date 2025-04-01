@@ -33,8 +33,8 @@ export default function sidebar() {
         <li className='text-white font-bold text-lg'>DashBord</li>
         <Link to="/" className='flex gap-4'><i class="fa-solid fa-house"></i>Home</Link>
         <Link to="/about" className='flex gap-4'><i class="fa-solid fa-user"></i>About</Link>
-        <Link to={"/contact"} className='flex gap-4'><i class="fa-solid  fa-gear"></i>Contact</Link>
-        <li className='flex gap-4'><i class="fa-solid fa-envelope"></i>Service</li>
+        <Link to="/contact" className='flex gap-4'><i class="fa-solid  fa-gear"></i>Contact</Link>
+        <Link to="/service" className='flex gap-4'><i class="fa-solid fa-envelope"></i>Service</Link>
       </ul>
      </div>
 {isOpen&&(
@@ -45,7 +45,7 @@ export default function sidebar() {
         <Link to="/" className='flex gap-2 font-thin'><i class="fa-solid fa-house"></i>Home</Link>
         <Link to="/about" className='flex gap-2 font-thin'><i class="fa-solid fa-user"></i>About</Link>
         <Link to="/contact" className='flex gap-2 font-thin'><i class="fa-solid  fa-gear"></i>Contact</Link>
-        <li className='flex gap-4 font-thin'><i class="fa-solid fa-envelope"></i>Services</li>
+        <Link to="/service" className='flex gap-4 font-thin'><i class="fa-solid fa-envelope"></i>Services</Link>
       </ul>
   </div>
      

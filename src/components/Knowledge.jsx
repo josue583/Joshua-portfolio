@@ -2,7 +2,7 @@ import React from 'react'
 
 function Knowledge() {
   return (
-    <div className='w-4/5 flex flex-col gap-4  md:pl-1 md:bg-gray-950 md:flex md:flex-row md:gap-20 text-white text-xl md:text-lg '>
+    <div className='w-4/5 flex flex-col gap-4  md:pl-1 md:bg-[#121212ff] md:flex md:flex-row md:gap-20 text-white text-xl md:text-lg '>
       
       <div className='w-4/5 md:w-1/2 flex flex-col gap-6 '>
           <h1 className='text-xl font-serif'>Knowledge</h1>

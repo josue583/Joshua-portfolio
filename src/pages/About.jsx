@@ -11,11 +11,11 @@ function About() {
   return (
     <div className=' flex flex-col md:flex md:flex-row bg-gray-950'>
       <Sidebar/>
-      <div className='w-full md:w-full bg-gray-950 md:bg-gray-950 md:ml-64   min-h-screen flex flex-col justify-center items-center gap-20 ' >
+      <div className='w-full md:w-full bg-[#121212ff] md:bg-[#121212ff] md:ml-64   min-h-screen flex flex-col justify-center items-center gap-20 ' >
       <div className='w-4/5 min-h-screen text-white  flex flex-col mt-40 gap-6'>
       <div className='w-full mid:w-4/5 h-32 flex flex-col gap-2 text-gray-100'>
       <h1 className='w-20 h-8 bg-gray-700 font-bold text-center '>About</h1>
-      <h2 className='text-white text-2xl font-bold'>About Me</h2>
+      <h2 className='text-white text-2xl font-extrabold'>About Me</h2>
       </div>
       
       <div className='w-full flex flex-col gap-6 '>
