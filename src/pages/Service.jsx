@@ -3,7 +3,10 @@ import Sidebar from '../components/Sidebar'
 import Card from '../components/Card'
 import cardInformation from '../assets/cardInformation'
 import Parterners from '../components/Parterners'
-
+import Funfact from '../components/Funfact'
+import Fun from '../assets/fun'
+import PriceCard from '../components/PriceCard'
+import Price from '../assets/Price'
 function createCard(cardinf){
   return(
     <Card
@@ -13,6 +16,25 @@ function createCard(cardinf){
     content={cardinf.content}
     />
   );
+}
+function createFun(fun){
+  return(
+    <Funfact
+    funNumber={fun.funNumber}
+    description={fun.description}
+    />
+  );
+}
+function Createprice(p){
+  return(
+    <PriceCard
+    price={p.price}
+    type={p.type}
+    description={p.description}
+    button={p.butoon}
+    />
+
+  )
 }
 function Service() {
   
@@ -28,6 +50,17 @@ function Service() {
             {cardInformation.map(createCard)}
         </div>
         <Parterners/>
+        <div className='h-160 md:h-80 flex flex-col gap-12 justify-center '>
+        <h1 className='text-white text-2xl font-extrabold md:pl-32'>Fun Facts</h1>
+        <div className='flex flex-wrap gap-8 md:pl-32 items-center'>
+        {Fun.map(createFun)}
+        </div>
+       
+          
+        </div>
+         <div className='bg-[#121212ff] md:pl-32 flex gap-12'>
+       {Price.map(Createprice)}
+        </div>
       </div>
     </div>
   )
