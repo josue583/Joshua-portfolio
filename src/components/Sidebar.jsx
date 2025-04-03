@@ -13,7 +13,7 @@ export default function sidebar() {
 
       <div className='w-full  flex justify-between items-center h-18 bg-[#3b3b3bff] md:hidden'>
         <h1 className='w-10 h-10 rounded-full text-white bg-[#000000ff] flex justify-center items-center ml-8 text-xl font-extrabold'>NJ</h1>
-      <button onClick={() => setIsOpen(!isOpen)} className="md:hidden text-white mr-8">
+      <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden text-white mr-8">
   {isOpen ? (
     <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
@@ -28,7 +28,7 @@ export default function sidebar() {
       </div>
      <div>
    
-<ul className='hidden  md:flex flex-col  gap-8 text-sm font-serif'>
+<ul className=' hidden md:flex flex-col  gap-8 text-sm font-serif'>
 <h1 className='w-10 h-10 rounded-full text-white bg-[#3b3b3bff] flex justify-center items-center ml-8 text-xl font-serif'>NJ</h1>
         <li className='text-white font-bold text-lg'>DashBord</li>
         <Link to="/" className='flex gap-4'><i class="fa-solid fa-house"></i>Home</Link>

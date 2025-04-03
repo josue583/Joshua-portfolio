@@ -20,18 +20,20 @@ function createCard(cardinf){
 function createFun(fun){
   return(
     <Funfact
+    key={fun.key}
     funNumber={fun.funNumber}
     description={fun.description}
     />
   );
 }
-function Createprice(p){
+function Createprice(p,index){
   return(
     <PriceCard
+    key={index}
     price={p.price}
     type={p.type}
     description={p.description}
-    button={p.butoon}
+    button={p.button}
     />
 
   )
@@ -46,11 +48,11 @@ function Service() {
         <button className='w-20 h-10 bg-[#3b3b3bff] text-white '>Services</button>
         <h1 className='text-2xl text-white font-extrabold'>What I Do</h1>
         </div>
-        <div className='w-full  md:w-4/5   flex  flex-wrap gap-8 md:pl-32 '>
+        <div className='w-full  lg:w-4/5   flex  flex-wrap gap-8 md:pl-32 '>
             {cardInformation.map(createCard)}
         </div>
         <Parterners/>
-        <div className='h-160 md:h-80 flex flex-col gap-12 justify-center '>
+        <div className=' flex flex-col gap-16 justify-center p-8 md:p-0'>
         <h1 className='text-white text-2xl font-extrabold md:pl-32'>Fun Facts</h1>
         <div className='flex flex-wrap gap-8 md:pl-32 items-center'>
         {Fun.map(createFun)}
@@ -58,7 +60,7 @@ function Service() {
        
           
         </div>
-         <div className='bg-[#121212ff] md:pl-32 flex gap-12'>
+         <div className=' h-[900hdv] bg-[#000000ff] md:pl-32 flex gap-16 items-center flex-wrap p-8 '>
        {Price.map(Createprice)}
         </div>
       </div>

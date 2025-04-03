@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className='w-full flex flex-col md:flex md:flex-row  md:min-h-screen'>
       <Sidebar/>
-      <div className='w-full min-h-screen flex flex-col items-center bg-[#121212ff] pt-12 md:flex md:flex-row md:bg-[#121212ff] md:justify-center md:pl-60 min-h-screen text-white'>
+      <div className='w-full min-h-screen flex flex-col items-center bg-[#121212ff] pt-12 lg:flex md:flex-row md:bg-[#121212ff] md:justify-center md:pl-60 min-h-screen text-white'>
         <div className='w-60'>
          <img className='w-40 h-52 rounded-full border-t-transparent animate-spin-slow' src={joshua} alt="" />
         </div>
