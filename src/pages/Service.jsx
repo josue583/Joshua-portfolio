@@ -4,7 +4,7 @@ import Card from '../components/Card'
 import cardInformation from '../assets/cardInformation'
 import Parterners from '../components/Parterners'
 import Funfact from '../components/Funfact'
-import funInformation from '../assets/funInfo'
+import funInformation from '../components/funInfo'
 import PriceCard from '../components/PriceCard'
 import Price from '../assets/Price'
 function createCard(cardinf){
