@@ -4,7 +4,7 @@ import Card from '../components/Card'
 import cardInformation from '../assets/cardInformation'
 import Parterners from '../components/Parterners'
 import Funfact from '../components/Funfact'
-// import Fun from '../assets/fun'
+import funInformation from '../assets/fun'
 import PriceCard from '../components/PriceCard'
 import Price from '../assets/Price'
 function createCard(cardinf){
@@ -54,9 +54,9 @@ function Service() {
         <Parterners/>
         <div className=' flex flex-col gap-16 justify-center p-8 md:p-0'>
         <h1 className='text-white text-2xl font-extrabold md:pl-32'>Fun Facts</h1>
-        {/* <div className='flex flex-wrap gap-8 md:pl-32 items-center'>
-        {Fun.map(createFun)}
-        </div> */}
+        <div className='flex flex-wrap gap-8 md:pl-32 items-center'>
+        {funInformation.map(createFun)}
+        </div>
        
           
         </div>
