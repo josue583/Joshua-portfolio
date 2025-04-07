@@ -1,7 +1,7 @@
 
 
 
-const Fun=[{
+const fun=[{
     funNumber:"40",
     description:"completed project"
 
@@ -18,4 +18,4 @@ const Fun=[{
 }
 ]
 
-export default Fun
+export default fun
