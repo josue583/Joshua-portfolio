@@ -15,7 +15,7 @@ const Fun=[{
     funNumber:"300+",
     description:"happy client"
 
-},
+}
 ]
 
 export default Fun
