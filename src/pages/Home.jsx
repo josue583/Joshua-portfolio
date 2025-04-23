@@ -2,11 +2,16 @@ import React from 'react'
 import Sidebar from '../components/Sidebar'
 import joshua from '../assets/joshua.jpg'
 import { TypeAnimation } from 'react-type-animation'
+import { motion } from 'framer-motion'
 function Home() {
   return (
     <div className='w-full flex flex-col md:flex md:flex-row  md:min-h-screen'>
       <Sidebar/>
-      <div className='w-full min-h-screen flex flex-col items-center bg-[#121212ff] pt-12 lg:flex md:flex-row md:bg-[#121212ff] md:justify-center md:pl-60 min-h-screen text-white'>
+      <motion.div
+      initial={{opacity:0,x:-50}}
+      animate={{opacity:1,x:0}}
+      transition={{duration:0.6,ease:"easeOut"}}
+       className='w-full min-h-screen flex flex-col items-center bg-[#121212ff] pt-12 lg:flex md:flex-row md:bg-[#121212ff] md:justify-center md:pl-60 min-h-screen text-white'>
         <div className='w-60'>
          <img className='w-40 h-52 rounded-full border-t-transparent animate-spin-slow' src={joshua} alt="" />
         </div>
@@ -29,7 +34,7 @@ function Home() {
         </div>
         </div>
        
-      </div>
+      </motion.div>
       
     
     </div>

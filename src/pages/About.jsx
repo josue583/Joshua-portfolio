@@ -7,11 +7,18 @@ import Progress_bar from '../components/Progress_bar'
 import Knowledge from '../components/Knowledge'
 import Experiance from '../components/Experiance'
 import Footer from '../components/Footer'
+import { motion } from 'framer-motion'
+
 function About() {
   return (
     <div className=' flex flex-col md:flex md:flex-row bg-gray-950'>
       <Sidebar/>
-      <div className='w-full md:w-full bg-[#121212ff] md:bg-[#121212ff] md:ml-64   min-h-screen flex flex-col justify-center items-center gap-20 ' >
+      <motion.div
+      initial={{opacity:0,x:-50}}
+      animate={{opacity:1,x:0}}
+      transition={{duration:0.6,ease:"easeOut"}}
+      
+      className='w-full md:w-full bg-[#121212ff] md:bg-[#121212ff] md:ml-64   min-h-screen flex flex-col justify-center items-center gap-20 ' >
       <div className='w-4/5 min-h-screen text-white  flex flex-col mt-40 gap-6'>
       <div className='w-full mid:w-4/5 h-32 flex flex-col gap-2 text-gray-100'>
       <h1 className='w-20 h-8 bg-gray-700 font-bold text-center '>About</h1>
@@ -56,7 +63,7 @@ function About() {
       <Knowledge/>
       <Experiance/>
       <Footer/>
-      </div>
+      </motion.div>
       
     </div>
   )

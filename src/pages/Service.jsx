@@ -7,6 +7,7 @@ import Funfact from '../components/Funfact'
 import funInformation from '../components/funInfo'
 import PriceCard from '../components/PriceCard'
 import Price from '../assets/Price'
+import { motion } from 'framer-motion'
 function createCard(cardinf){
   return(
     <Card
@@ -43,7 +44,11 @@ function Service() {
   return (
     <div className='flex flex-col'>
       <Sidebar/>
-      <div className='w-full min-h-screen flex flex-col gap-8 bg-[#121212ff] pt-12 pl-8 md:pt-40 p-6  md:ml-64'>
+      <motion.div
+      initial={{opacity:0,x:-50}}
+      animate={{opacity:1,x:0}}
+      transition={{duration:0.6,ease:"easeOut"}}
+       className='w-full min-h-screen flex flex-col gap-8 bg-[#121212ff] pt-12 pl-8 md:pt-40 p-6  md:ml-64'>
         <div className='flex flex-col gap-10 md:pl-32'>
         <button className='w-20 h-10 bg-[#3b3b3bff] text-white '>Services</button>
         <h1 className='text-2xl text-white font-extrabold'>What I Do</h1>
@@ -63,7 +68,7 @@ function Service() {
          <div className=' h-[900hdv] bg-[#000000ff] md:pl-32 flex gap-16 items-center flex-wrap p-8 '>
        {Price.map(Createprice)}
         </div>
-      </div>
+      </motion.div>
     </div>
   )
 }
