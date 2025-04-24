@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar from '../components/Sidebar'
 import MapComponent from '../components/Map'
 import Footer from '../components/Footer'
-import { motion } from 'framer-motion'
+import { delay, motion } from 'framer-motion'
 function Contact() {
   return (
     
@@ -26,9 +26,21 @@ function Contact() {
           
           <div>
             <form className='flex flex-col gap-6 ' action="">
-              <input className='w-full h-10 border border-gray-400 pl-2 text-white font-bold' type="text" placeholder='Name' />
-              <input className='w-full h-10 border border-gray-400 pl-2 text-white font-bold' type="text" placeholder='Email' />
-              <textarea className='w-full h-18 border border-gray-400 pl-2 text-white font-bold' type="text" placeholder='Message' />
+              <motion.input
+              initial={{opacity:0,x:-50}}
+              animate={{opacity:1,x:0}}
+              transition={{duration:0.4,delay:0.2}}
+               className='w-full h-10 border border-gray-400 pl-2 text-white font-bold' type="text" placeholder='Name' />
+              <motion.input
+              initial={{opacity:0,x:-50}}
+              animate={{opacity:1,x:0}}
+              transition={{duration:0.4,delay:0.2}}
+               className='w-full h-10 border border-gray-400 pl-2 text-white font-bold' type="text" placeholder='Email' />
+              <motion.extarea
+              initial={{opacity:0,x:-50}}
+              animate={{opacity:1,x:0}}
+              transition={{duration:0.4,delay:0.2}}
+               className='w-full h-18 border border-gray-400 pl-2 text-white font-bold' type="text" placeholder='Message' />
               
             </form>
           </div>
