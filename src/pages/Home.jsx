@@ -15,16 +15,16 @@ function Home() {
         <div className='w-72 h-96'>
          <img className='w-76 h-96 rounded-full border-t-transparent animate-spin-slow' src={joshua} alt="" />
         </div>
-        <div className='w-3/5 flex flex-col items-center xl:w-2/5 text-md  xl:text-xl xl:items-start gap-6 '>
-           <h1 className='text-2xl xl:text-4xl font-extrabold'>JOSUE NDIKUMWENAYO</h1>
+        <div className='w-4/5 flex flex-col items-center xl:w-2/5  xl:text-xl xl:items-start gap-6 '>
+           <h1 className='text-xl xl:text-4xl font-extrabold'>JOSUE NDIKUMWENAYO</h1>
            <h2 className='text-2xl'> <TypeAnimation
         sequence={["Software Dev", 1000, "Welcome to my portfolio!", 1000]}
         wrapper="span"
         speed={50}
         repeat={Infinity}
       /></h2>
-           <p className=' w-4/5 text-xl xl:text-xl space-y-60 text-[#a3a3a3ff] xl:w-full '>I am software developer passionate to provide good software design and that can let the user interact with server</p>
-           <div className='flex gap-5 '>
+           <p className=' w-4/5 text-md xl:text-xl space-y-60 text-[#a3a3a3ff] xl:w-full bg-green-400 '>I am software developer passionate to provide good software design and that can let the user interact with server</p>
+           <div className='flex gap-5 h-32 '>
            <i class="fa-brands text-white fa-facebook-f"></i>
            <i class="fa-brands fa-twitter"></i>
            <i class="fa-brands fa-square-instagram"></i>
