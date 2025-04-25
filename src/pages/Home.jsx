@@ -23,7 +23,7 @@ function Home() {
         speed={50}
         repeat={Infinity}
       /></h2>
-           <p className=' w-4/5 text-md xl:text-xl space-y-60 text-[#a3a3a3ff] xl:w-full bg-green-400 '>I am software developer passionate to provide good software design and that can let the user interact with server</p>
+           <p className=' w-4/5 text-md xl:text-xl space-y-60 text-[#a3a3a3ff] xl:w-full '>I am software developer passionate to provide good software design and that can let the user interact with server</p>
            <div className='flex gap-5 h-32 '>
            <i class="fa-brands text-white fa-facebook-f"></i>
            <i class="fa-brands fa-twitter"></i>
