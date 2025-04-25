@@ -2,7 +2,7 @@ import React from 'react'
 
  function Card(props) {
   return (
-    <div className=' w-full pr-10 md:w-80 h-86 text-white bg-[#2f2f30ff] flex flex-col gap-6 md:w-72 p-8 hover:scale-105 hover:shadow-2xl group'>
+    <div className=' w-full pr-10 md:w-66 h-86 text-white bg-[#2f2f30ff] flex flex-col gap-6 xl:w-64 p-8 hover:scale-105 hover:shadow-2xl group'>
       <h1 className='w-12 h-12 bg-[#3b3b3bff] font-extrabold text-md flex justify-center items-center rounded-full'>{props.cardNo}</h1>
       <h2 className=' font-extrabold'>{props.cardTitle}</h2>
       <p className='font-thin text-md'>{props.content}</p>

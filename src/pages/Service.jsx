@@ -42,24 +42,24 @@ function Createprice(p,index){
 function Service() {
   
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col xl:flex xl:flex-row'>
       <Sidebar/>
       <motion.div
       initial={{opacity:0,x:-50}}
       animate={{opacity:1,x:0}}
       transition={{duration:0.6,ease:"easeOut"}}
-       className='w-full min-h-screen flex flex-col gap-8 bg-[#121212ff] pt-12 pl-8 md:pt-40 p-6  md:ml-64'>
+       className='w-full min-h-screen flex flex-col gap-8 bg-[#121212ff] pt-12 pl-8 xl:pt-40 p-6  xl:ml-64'>
         <div className='flex flex-col gap-10 md:pl-32'>
         <button className='w-20 h-10 bg-[#3b3b3bff] text-white '>Services</button>
         <h1 className='text-2xl text-white font-extrabold'>What I Do</h1>
         </div>
-        <div className='w-full  lg:w-4/5   flex  flex-wrap gap-8 md:pl-32 '>
+        <div className='w-full  xl:w-4/5   flex  flex-wrap justify-center gap-8 xl:pl-32 '>
             {cardInformation.map(createCard)}
         </div>
         <Parterners/>
-        <div className=' flex flex-col gap-16 justify-center p-8 md:p-0'>
-        <h1 className='text-white text-2xl font-extrabold md:pl-32'>Fun Facts</h1>
-        <div className='flex flex-wrap gap-8 md:pl-32 items-center'>
+        <div className=' flex flex-col gap-16 justify-center p-8 xl:p-0'>
+        <h1 className='text-white text-2xl font-extrabold xl:pl-32'>Fun Facts</h1>
+        <div className='flex flex-wrap gap-8 xl:pl-32 items-center'>
         {funInformation.map(createFun)}
         </div>
        

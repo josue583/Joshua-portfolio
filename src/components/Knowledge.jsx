@@ -2,9 +2,9 @@ import React from 'react'
 
 function Knowledge() {
   return (
-    <div className='w-4/5 flex flex-col gap-4  md:pl-1 md:bg-[#121212ff] md:flex md:flex-row md:gap-20 text-white text-xl md:text-lg '>
+    <div className='w-4/5 flex flex-col gap-4  xl:pl-1 xl:bg-[#121212ff] xl:flex xl:flex-row xl:gap-20 text-white text-xl xl:text-lg'>
       
-      <div className='w-4/5 md:w-1/2 flex flex-col gap-6 '>
+      <div className='w-4/5 xl:w-1/2 flex flex-col gap-6 '>
           <h1 className='text-xl font-serif'>Knowledge</h1>
           <ul className='text-md flex flex-col gap-2 text-white font-thin'>
           <li className='flex gap-2 items-center'><i class="fa-sharp-duotone fa-solid fa-arrow-right"></i>JavaScript</li>
@@ -14,7 +14,7 @@ function Knowledge() {
           </ul>
 
       </div>
-      <div className='w-4/5 md:w-1/2 flex flex-col gap-6'>
+      <div className='w-4/5 xl:w-1/2 flex flex-col gap-6'>
         <h1 className='text-xl font-serif'>Interest</h1>
         <ol className='text-md flex flex-col gap-2 text-white font-thin'>
             <li className='flex gap-2 items-center'><i class="fa-sharp-duotone fa-solid fa-arrow-right"></i>Create Web App</li>
