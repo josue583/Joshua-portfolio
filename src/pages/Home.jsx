@@ -1,8 +1,9 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
-import joshua from '../assets/joshua.jpg'
+// import joshua from '../assets/joshua.jpg'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
+import joe from '../assets/joe.jpg'
 function Home() {
   return (
     <div className='w-full flex flex-col xl:flex xl:flex-row  xl:min-h-screen'>
@@ -13,7 +14,7 @@ function Home() {
       transition={{duration:0.6,ease:"easeOut"}}
        className='w-full min-h-screen flex flex-col items-center gap-16 bg-[#121212ff] pt-12 xl:flex xl:flex-row xl:bg-[#121212ff] xl:justify-center xl:pl-60 min-h-screen text-white'>
         <div className='w-72 h-96'>
-         <img className='w-76 h-96 rounded-full border-t-transparent animate-spin-slow' src={joshua} alt="" />
+         <img className='w-76 h-86 rounded-full border-t-transparent animate-spin-slow' src={joe} alt="" />
         </div>
         <div className='w-4/5 flex flex-col items-center xl:w-2/5  xl:text-xl xl:items-start gap-6 '>
            <h1 className='text-xl xl:text-4xl font-extrabold'>JOSUE NDIKUMWENAYO</h1>

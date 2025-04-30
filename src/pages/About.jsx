@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
-import joshua from "../assets/joshua.jpg"
+// import joshua from "../assets/joshua.jpg"
 import Myinformation from '../components/Myinformation.jsx/Myinformation'
 // import Skills from '../components/skills.jsx'
 import Progress_bar from '../components/Progress_bar'
@@ -8,6 +8,7 @@ import Knowledge from '../components/Knowledge'
 import Experiance from '../components/Experiance'
 import Footer from '../components/Footer'
 import { motion } from 'framer-motion'
+import joe from "../assets/joe.jpg"
 
 function About() {
   return (
@@ -27,7 +28,7 @@ function About() {
       
       <div className='w-full flex flex-col gap-6 '>
       <div className='w-full xl:w-full '>
-          <img className='w-full h-[600px]  xl:w-full xl:h-fit ' src={joshua} alt="" />
+          <img className='w-full h-[600px]  xl:w-full xl:h-fit ' src={joe} alt="" />
         </div>
         <div className='w-full'>
           <h1 className='text-2xl font-bold font-serif'>Ndikumwenayo Josue</h1>
